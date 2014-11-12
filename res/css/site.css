@@ -1,0 +1,55 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic";
+/* -- import Roboto Font ---------------------------- */
+/* -- import Material Icons Font -------------------- */
+@font-face {
+  font-family: 'Material-Design';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53474/Material-Design.eot?2u7a7w');
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53474/Material-Design.eot?#iefix2u7a7w') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53474/Material-Design.woff?2u7a7w') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53474/Material-Design.ttf?2u7a7w') format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53474/Material-Design.svg?2u7a7w#Material-Design') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body
+{
+	font-family: 'Material-Design';
+}
+
+.item-holder
+{
+	background: #FFF;
+	border: 1px solid #D5D6D7;
+	box-shadow: 0 0px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 3px;
+}
+
+.item-image
+{
+}
+
+.item-details
+{
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: -10px;
+}
+
+.item-name
+{
+	font-size: .8em;
+	font-weight: lighter;
+	margin-bottom: 0.3em;
+}
+
+.item-price
+{
+	font-size: .8em;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.menu-item
+{
+	cursor: pointer;
+}

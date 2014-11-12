@@ -1,0 +1,100 @@
+.hover_block 
+ {
+    position:  relative;
+    overflow:  hidden; 
+    padding: 8px
+}
+
+.hover_info 
+{ 
+    width:  100%;
+    height:  100%;
+    position:  absolute;
+    top:  0;
+    left:  0;
+}
+
+
+.hover_info h3
+ {
+    padding:  10px 20px;
+    background:  rgba(179,119,193,0.8);
+    color:  #E7E7E7;
+    position:  absolute;
+    top:  25px;
+    left:  -100%;
+}
+
+.hover_info p 
+ {
+    line-height:  1.4;
+    color:  #fff;
+    position:  absolute;
+    top:  85px;
+    left:  10%;
+    width:  80%;
+    text-align:  center;
+    opacity:  0;
+    transition:  opacity 200ms linear;
+    -webkit-transition:  opacity 200ms linear;
+    -moz-transition:  opacity 200ms linear;
+}
+
+.hover_info div 
+{
+    padding:  10px 20px;
+    background:  rgba(179,119,193,0.8);
+    color:  #E7E7E7;
+    position:  absolute;
+    bottom:  25px;
+    right:  -100%;
+}
+
+.hover_info:hover h3 
+{
+    left:  0;
+}
+
+.hover_info:hover p  
+{
+    opacity:  1;
+}
+
+.hover_info:hover div 
+{
+    right:  0;
+}
+
+.hover_info div:hover  
+{
+    background:  rgba(179,119,193,0.9);
+    color:  #F7F7F7;
+}
+
+.block_2 .hover_info 
+ {
+    background:  rgba(0,  0,  0,  0.8);
+    top:  -100%;
+    opacity:  0;
+    transition:  opacity .25s ease-in-out;
+    -moz-transition:  opacity .25s ease-in-out;
+    -webkit-transition:  opacity .25s ease-in-out;
+}
+
+.block_2:hover .hover_info 
+ {   
+    top:  0;
+    cursor: normal;
+    opacity:  1;
+    transition:  opacity .25s ease-in-out;
+    -moz-transition:  opacity .25s ease-in-out;
+    -webkit-transition:  opacity .25s ease-in-out;
+}
+
+
+
+
+
+
+
+
