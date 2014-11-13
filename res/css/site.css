@@ -14,6 +14,17 @@ body
 	font-family: 'Material-Design';
 }
 
+.center-text
+{
+
+	text-align: center;
+}
+
+.header-logo
+{
+	max-height: 30vh;
+}
+
 .item-holder
 {
 	background: #FFF;
@@ -32,7 +43,7 @@ body
 {
 	padding-left: 8px;
 	padding-right: 8px;
-	margin-top: -10px;
+	margin-top: .3em;
 }
 
 .item-name
@@ -53,3 +64,146 @@ body
 {
 	cursor: pointer;
 }
+
+.detail-img
+{
+	margin: -10px;
+	height: 85vh;
+	background: url(/res/images/detallestest.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.detail-title
+{
+	margin-top: 1em;
+	font-size: 1em;
+	font-weight: normal;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+.detail-price
+{
+
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.detail-price span
+{
+	font-size: .8em;
+	font-weight: lighter;
+}
+
+.detail-options
+{
+	padding: 0px;
+	margin-top: 2em;
+}
+
+.detail-size
+{
+	padding-left: 15px;
+	margin-bottom: 2em;
+}
+
+.detail-size-options
+{
+	padding-left: 15px;
+
+}
+
+.btn-addtobag
+{
+	color: #fff;
+	background-color: rgba(179,119,193,0.9);
+	border-color: rgba(179,119,193,0.9);
+	width: 100%;
+}
+
+.btn-addtobag:hover
+{
+	color: #fff;
+	background-color: rgba(179,119,193,1);
+	border-color: rgba(179,119,193,1);
+	width: 100%;
+}
+
+.detail-info
+{
+	margin-top: 2em;
+}
+
+.nav a
+{
+
+	font-size: .8em;
+	font-weight: normal;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+
+.half
+{
+	width: 50%;
+}
+
+.detail-info p
+{
+	margin-top: 4em;
+	padding:15px;
+	font-size: .8em;
+	font-weight: lighter;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+.exit-detail-xs
+{
+	bottom: 1em;
+	margin-top: 3em;
+}
+
+.btn-exit-detail
+{
+	color: #fff;
+	background-color: rgba(179,119,193,0.9);
+	border-color: rgba(179,119,193,0.9);
+	width: 100%;
+}
+
+
+.btn-exit-detail:hover
+{
+	color: #fff;
+	background-color: rgba(179,119,193,1);
+	border-color: rgba(179,119,193,1);
+}
+
+.detail-material
+{
+	margin-top: 1em;
+	font-size: 1em;
+	font-weight: lighter;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+.detail-brief	
+{
+	margin-top: 1em;
+	font-size: 1em;
+	font-weight: lighter;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
