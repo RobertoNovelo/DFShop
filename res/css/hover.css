@@ -15,7 +15,7 @@
 }
 
 
-.hover_info h3
+.hover_info h5
  {
     padding:  10px 20px;
     background:  rgba(179,119,193,0.8);
@@ -50,7 +50,7 @@
     right:  -100%;
 }
 
-.hover_info:hover h3 
+.hover_info:hover h5
 {
     left:  0;
 }
@@ -69,6 +69,7 @@
 {
     background:  rgba(179,119,193,0.9);
     color:  #F7F7F7;
+    cursor: pointer;
 }
 
 .block_2 .hover_info 
