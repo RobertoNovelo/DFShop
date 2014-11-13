@@ -9,6 +9,7 @@
 		<meta name="keywords" content="DelFuego,Online,Shop"/>
 		<meta name="author" content="RobertoNovelo" />
 		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="/res/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="/res/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="/res/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="/res/css/hover.css" />
@@ -18,6 +19,6 @@
 		<div class="container">
 			<!-- Top Navigation -->
 			<header>
-				<h1>DelFuego<span>Shop</span></h1>	
+				<img class="header-logo" src="/res/images/delfuegoLogo.png">
 				<nav class="codrops-demos">
 					<a class="menu-item current-demo">All</a>
